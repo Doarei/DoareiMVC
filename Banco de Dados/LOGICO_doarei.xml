@@ -1,0 +1,915 @@
+<?xml version="1.0"?>
+<MER>
+	<Informacoes>
+		<Posicao Left="0" Top="0"/>
+		<TotalItens Valor="37"/>
+		<Tipo Valor="LÓGICO"/>
+		<Versao Valor="2.0.0"/>
+		<Autor Valor=""/>
+		<Observacao Valor=""/>
+		<Template>
+      <CAMPOS/>
+      <TIPOS/>
+      <COMPLEMENTO_CAMPOS/>
+      <COMPLEMENTO_TABELAS/>
+      <DDL>
+        <CTab_A>CREATE TABLE *$nome_tabela</CTab_A>
+        <CTab_B> (</CTab_B>
+        <CTab_Compl>*$compl_tabela</CTab_Compl>
+        <CTab_C>)*$separador*$\n</CTab_C>
+        <CCamp>*$nome_campo *$tipo_campo *$compl_campo</CCamp>
+        <Pk_inTab>-1</Pk_inTab>
+        <Fk_inTab>-1</Fk_inTab>
+        <Const_Nomear>0</Const_Nomear>
+        <CConst_Nome>*$nome_tabela_*$envol_campo</CConst_Nome>
+        <Separador></Separador>
+      </DDL>
+    </Template>
+	</Informacoes>
+	<Tabelas>
+    <Tabela nome="usuario" id="1">
+      <Left Valor="90"/>
+      <Top Valor="38"/>
+      <Width Valor="180"/>
+      <Height Valor="100"/>
+      <Fonte default="0">
+        <FonteNome Valor="Tahoma"/>
+        <FonteTamanho Valor="8"/>
+        <FonteEstilo Valor="[]"/>
+        <FonteCor Valor="0"/>
+      </Fonte>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="id_usuario" id="4">
+          <Left Valor="90"/>
+          <Top Valor="57"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="INTEGER"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="e-mail_usuario" id="5">
+          <Left Valor="90"/>
+          <Top Valor="75"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="senha_usuario" id="6">
+          <Left Valor="90"/>
+          <Top Valor="93"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="nome_usuario" id="7">
+          <Left Valor="90"/>
+          <Top Valor="111"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Doacao" id="2">
+      <Left Valor="585"/>
+      <Top Valor="32"/>
+      <Width Valor="180"/>
+      <Height Valor="190"/>
+      <Fonte default="0">
+        <FonteNome Valor="Tahoma"/>
+        <FonteTamanho Valor="8"/>
+        <FonteEstilo Valor="[]"/>
+        <FonteCor Valor="0"/>
+      </Fonte>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="nome_doador" id="8">
+          <Left Valor="585"/>
+          <Top Valor="51"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="id_usuario" id="32">
+          <Left Valor="585"/>
+          <Top Valor="69"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="-1"/>
+          <Tipo Valor="INTEGER"/>
+          <TabOrigem Valor="1"/>
+          <CampoOrigem Valor="4"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="endereco_doador" id="9">
+          <Left Valor="585"/>
+          <Top Valor="87"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="equipamento_doador" id="10">
+          <Left Valor="585"/>
+          <Top Valor="105"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="email_doador" id="11">
+          <Left Valor="585"/>
+          <Top Valor="123"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="cep_doador" id="12">
+          <Left Valor="585"/>
+          <Top Valor="141"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="cidade_doador" id="13">
+          <Left Valor="585"/>
+          <Top Valor="159"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="estado_doador" id="14">
+          <Left Valor="585"/>
+          <Top Valor="177"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="ponto_retirada_doador" id="15">
+          <Left Valor="585"/>
+          <Top Valor="195"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+    <Tabela nome="Emprestimo" id="3">
+      <Left Valor="291"/>
+      <Top Valor="234"/>
+      <Width Valor="180"/>
+      <Height Valor="262"/>
+      <Fonte default="0">
+        <FonteNome Valor="Tahoma"/>
+        <FonteTamanho Valor="8"/>
+        <FonteEstilo Valor="[]"/>
+        <FonteCor Valor="0"/>
+      </Fonte>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <Color Valor="12639424"/>
+      <Complemento Valor=""/>
+      <cOrdem Valor="0"/>
+      <Campos>
+        <Campo nome="cpf_ep" id="16">
+          <Left Valor="291"/>
+          <Top Valor="253"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="-1"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="INTEGER"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="id_usuario" id="28">
+          <Left Valor="291"/>
+          <Top Valor="271"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="-1"/>
+          <Tipo Valor="INTEGER"/>
+          <TabOrigem Valor="1"/>
+          <CampoOrigem Valor="4"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="equipamento_ep" id="17">
+          <Left Valor="291"/>
+          <Top Valor="289"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="nome_ep" id="18">
+          <Left Valor="291"/>
+          <Top Valor="307"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="cep_ep" id="19">
+          <Left Valor="291"/>
+          <Top Valor="325"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="docs_ep" id="20">
+          <Left Valor="291"/>
+          <Top Valor="343"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="rg_ep" id="21">
+          <Left Valor="291"/>
+          <Top Valor="361"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="estado_ep" id="22">
+          <Left Valor="291"/>
+          <Top Valor="379"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="data_nascimento_ep" id="23">
+          <Left Valor="291"/>
+          <Top Valor="397"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="endereco_ep" id="24">
+          <Left Valor="291"/>
+          <Top Valor="415"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="cidade_ep" id="25">
+          <Left Valor="291"/>
+          <Top Valor="433"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="ponto_retirada_ep" id="27">
+          <Left Valor="291"/>
+          <Top Valor="451"/>
+          <Width Valor="178"/>
+          <Height Valor="19"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+      </Campos>
+    </Tabela>
+  </Tabelas>
+	<LigacaoEntreTabelas>
+    <LigaTabela nome="usuario_Emprestimo1" id="29">
+      <Left Valor="265"/>
+      <Top Valor="203"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="0">
+        <FonteNome Valor="Tahoma"/>
+        <FonteTamanho Valor="8"/>
+        <FonteEstilo Valor="[]"/>
+        <FonteCor Valor="0"/>
+      </Fonte>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="1">
+          <MostraCardinalidade Valor="-1" Card_id="30"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="30">
+              <Left Valor="180"/>
+              <Top Valor="139"/>
+              <Width Valor="37"/>
+              <Height Valor="20"/>
+              <Fonte default="0">
+                <FonteNome Valor="Tahoma"/>
+                <FonteTamanho Valor="8"/>
+                <FonteEstilo Valor="[]"/>
+                <FonteCor Valor="0"/>
+              </Fonte>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="3">
+          <MostraCardinalidade Valor="-1" Card_id="31"/>
+          <Cardinalidades Cardinalidade="4">
+            <Cardinalidade nome="" id="31">
+              <Left Valor="381"/>
+              <Top Valor="219"/>
+              <Width Valor="37"/>
+              <Height Valor="20"/>
+              <Fonte default="0">
+                <FonteNome Valor="Tahoma"/>
+                <FonteTamanho Valor="8"/>
+                <FonteEstilo Valor="[]"/>
+                <FonteCor Valor="0"/>
+              </Fonte>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="4"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+    <LigaTabela nome="usuario_Doacao1" id="33">
+      <Left Valor="420"/>
+      <Top Valor="78"/>
+      <Width Valor="15"/>
+      <Height Valor="15"/>
+      <Fonte default="0">
+        <FonteNome Valor="Tahoma"/>
+        <FonteTamanho Valor="8"/>
+        <FonteEstilo Valor="[]"/>
+        <FonteCor Valor="0"/>
+      </Fonte>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="1">
+          <MostraCardinalidade Valor="-1" Card_id="34"/>
+          <Cardinalidades Cardinalidade="1">
+            <Cardinalidade nome="" id="34">
+              <Left Valor="270"/>
+              <Top Valor="73"/>
+              <Width Valor="37"/>
+              <Height Valor="20"/>
+              <Fonte default="0">
+                <FonteNome Valor="Tahoma"/>
+                <FonteTamanho Valor="8"/>
+                <FonteEstilo Valor="[]"/>
+                <FonteCor Valor="0"/>
+              </Fonte>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="1"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="2">
+          <MostraCardinalidade Valor="-1" Card_id="35"/>
+          <Cardinalidades Cardinalidade="4">
+            <Cardinalidade nome="" id="35">
+              <Left Valor="550"/>
+              <Top Valor="112"/>
+              <Width Valor="37"/>
+              <Height Valor="20"/>
+              <Fonte default="0">
+                <FonteNome Valor="Tahoma"/>
+                <FonteTamanho Valor="8"/>
+                <FonteEstilo Valor="[]"/>
+                <FonteCor Valor="0"/>
+              </Fonte>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="4"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </LigaTabela>
+  </LigacaoEntreTabelas>
+	<Texto>
+	</Texto>
+</MER>
